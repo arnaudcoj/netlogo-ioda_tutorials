@@ -1,0 +1,12 @@
+; interactions performed by wolves
+wolves      Eat           20      sheep      1
+wolves      Hunt          10      sheep      5
+wolves      MoveRandomly  0
+
+; interaction performed by sheep
+sheep       Eat           20      patches    1
+sheep       Mate          10      sheep      1
+sheep       MoveRandomly  0
+
+; interaction performed by patches
+patches     Grow          0       UPDATE
